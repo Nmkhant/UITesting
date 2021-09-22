@@ -33,9 +33,9 @@ if choice == "Home": #Home
     if st.button("Analyze"):
         prediction = projectfinal.testing(user_review)
         if prediction == 0:
-            st.success('Your comment is a positive review. Racism and Sexism should not be in the world.You are great!')
+            st.success('Your comment is a positive comment. Racism and Sexism should not be in the world.You are great!')
         elif prediction == 1:
-            st.error('Your comment is a negative review. The day you stop blaming others is the day you begin to discover who you truely are.')
+            st.error('Your comment is a negative comment. The day you stop blaming others is the day you begin to discover who you truely are.')
 
    
 else: #About Us
