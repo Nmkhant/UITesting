@@ -11,11 +11,11 @@ choice = st.sidebar.selectbox("Menu" , menu)
 
 if choice == "Home": #Home
     
-    st.markdown("<h1 style='text-align: left; color: #1DA1F2'><b>Sentiment Analysis Tool For Racist And Sexist</b></h2>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color: #1DA1F2'><b>Sentiment Analysis Tool For <br> Racist And Sexist</b></h2>", unsafe_allow_html=True)
     
     st.text("")
     
-    st.image("http://scicommjc.org/wp-content/uploads/2017/07/Twitterchat-Canva-Multiuse.png" , width = 700)
+    st.image("https://miro.medium.com/max/980/1*AHOM9wSrpQpxt37_v8E5bQ.png" , width = 700)
     
     st.text("")
     
