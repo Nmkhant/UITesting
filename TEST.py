@@ -15,7 +15,7 @@ if choice == "Home": #Home
     
     st.text("")
     
-    st.image("Body_image.PNG" , width = 700)
+    st.image("http://scicommjc.org/wp-content/uploads/2017/07/Twitterchat-Canva-Multiuse.png" , width = 700)
     
     st.text("")
     
