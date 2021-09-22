@@ -13,24 +13,7 @@ import pickle
 import projectfinal
 
 
-    
-#st.sidebar.image("Team_Logo1.JPG" , width=300)
 
-menu = ["Home" , "About Us"]
-
-choice = st.sidebar.selectbox("Menu" , menu)
-
-if choice == "Home": #Home
-    
-    st.markdown("<h1 style='text-align: center; color: #ffba00'>Spoil Reviews Detector Software that's as easy to understand as it is to use</h1>", unsafe_allow_html=True)
-    
-    st.text("")
-    
-    st.image("Body_image3.jpg" , width = 700)
-    
-    st.text("")
-    
-    user_review = st.text_input('Enter The Review You Want To Test')
     
     if st.button("Predict"):
         prediction = projectfinal.testing(user_review)
