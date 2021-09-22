@@ -14,7 +14,7 @@ import projectfinal
 
 
     
-#st.sidebar.image("Penrose_Triangle-01-01.png" , width=300)
+#st.sidebar.image("Team_Logo1.JPG" , width=300)
 
 menu = ["Home" , "About Us"]
 
@@ -26,7 +26,7 @@ if choice == "Home": #Home
     
     st.text("")
     
-    #st.image("IMDb_Header_Page.jpg" , width = 700)
+    st.image("Body_image3.jpg" , width = 700)
     
     st.text("")
     
@@ -50,11 +50,11 @@ else: #About Us
     st.text("")
     
     col1 , col2 , col3 = st.columns(3)
-    #col1.image('https://th.bing.com/th/id/OIP.W-P6hA0MFd0MfJUWtC025gAAAA?pid=ImgDet&rs=1', width = 200)
+    col1.image('https://th.bing.com/th/id/OIP.W-P6hA0MFd0MfJUWtC025gAAAA?pid=ImgDet&rs=1', width = 200)
     col1.write("<p style = 'text-align: left; font-size:120%; color:#ffba00'>I am Nyi Min Khant. I am a student from UTYCC. I made the User Interface of this               software.</p>", unsafe_allow_html = True)
     
-    #col2.image('https://th.bing.com/th/id/OIP.W-P6hA0MFd0MfJUWtC025gAAAA?pid=ImgDet&rs=1', width = 200)
+    col2.image('https://th.bing.com/th/id/OIP.W-P6hA0MFd0MfJUWtC025gAAAA?pid=ImgDet&rs=1', width = 200)
     col2.write("<p style = 'text-align: left; font-size:120%; color:#ffba00'></p>", unsafe_allow_html = True)
     
-    #col3.image('https://th.bing.com/th/id/OIP.W-P6hA0MFd0MfJUWtC025gAAAA?pid=ImgDet&rs=1', width = 200)  
+    col3.image('https://th.bing.com/th/id/OIP.W-P6hA0MFd0MfJUWtC025gAAAA?pid=ImgDet&rs=1', width = 200)  
     col3.write("<p style = 'text-align: left; font-size:120%; color:#ffba00'></p>", unsafe_allow_html = True)
