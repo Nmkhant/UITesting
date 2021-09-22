@@ -2,11 +2,18 @@ import pandas as pd
 import numpy as np
 import streamlit as st
 import re
-import pickle 
+import pickle
+import Model
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 Tfidf_vexct = TfidfVectorizer()
  
+def apply_cleaning_function_to_list(X):
+    cleaned_X = []
+    for element in X:
+        cleaned_X.append(clean_text(element))
+    return cleaned_X
+
 st.sidebar.image("Team_Logo1.JPG" , width=300)
 
 menu = ["Home" , "About Us"]
