@@ -3,7 +3,7 @@ import numpy as np
 import streamlit as st
 
  
-st.sidebar.image("Team_Logo2.jpg" , width=300)
+st.sidebar.image("Team_Logo1.JPG" , width=300)
 
 menu = ["Home" , "About Us"]
 
@@ -11,7 +11,7 @@ choice = st.sidebar.selectbox("Menu" , menu)
 
 if choice == "Home": #Home
     
-    st.markdown("<h1 style='text-align: center; color: #1DA1F2'><b>Sentiment Analysis Tool For <br> Racist And Sexist</b></h2>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color: #1DA1F2'><b>Twitter Sentiment Analysis Tool For <br> Racism And Sexism</b></h2>", unsafe_allow_html=True)
     
     st.text("")
     
