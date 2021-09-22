@@ -15,7 +15,7 @@ if choice == "Home": #Home
     
     st.text("")
     
-    st.image("https://miro.medium.com/max/980/1*AHOM9wSrpQpxt37_v8E5bQ.png" , width = 700)
+    st.image("https://miro.medium.com/max/980/1*AHOM9wSrpQpxt37_v8E5bQ.png" , width = 600)
     
     st.text("")
     
