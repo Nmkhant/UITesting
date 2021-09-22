@@ -30,12 +30,12 @@ if choice == "Home": #Home
     
     user_review = st.text_input('Enter The Review You Want To Test')
 
-    if st.button("Predict"):
+    if st.button("Analyze"):
         prediction = projectfinal.testing(user_review)
         if prediction == 0:
-            st.success('Your review is a positive review. Racism and Sexism should not be in the world.You are great!')
+            st.success('Your comment is a positive review. Racism and Sexism should not be in the world.You are great!')
         elif prediction == 1:
-            st.error('Your review is a negative review. The day you stop blaming others is the day you begin to discover who you truely are.')
+            st.error('Your comment is a negative review. The day you stop blaming others is the day you begin to discover who you truely are.')
 
    
 else: #About Us
@@ -46,10 +46,10 @@ else: #About Us
     
     col1 , col2 , col3 = st.columns(3)
     col1.image('https://th.bing.com/th/id/OIP.W-P6hA0MFd0MfJUWtC025gAAAA?pid=ImgDet&rs=1', width = 200)
-    col1.write("<p style = 'text-align: left; font-size:120%; color:#1DA1F2'>I am Nyi Min Khant. I am a student from UTYCC. I made the User Interface of this               software.</p>", unsafe_allow_html = True)
+    col1.write("<p style = 'text-align: left; font-size:110%; color:#1DA1F2'>I am Nyi Min Khant. I am a student from UTYCC. I made the User Interface of this               software.</p>", unsafe_allow_html = True)
     
     col2.image('https://th.bing.com/th/id/OIP.W-P6hA0MFd0MfJUWtC025gAAAA?pid=ImgDet&rs=1', width = 200)
-    col2.write("<p style = 'text-align: left; font-size:120%; color:#1DA1F2'></p>", unsafe_allow_html = True)
+    col2.write("<p style = 'text-align: left; font-size:110%; color:#1DA1F2'></p>", unsafe_allow_html = True)
     
     col3.image('https://th.bing.com/th/id/OIP.W-P6hA0MFd0MfJUWtC025gAAAA?pid=ImgDet&rs=1', width = 200)  
-    col3.write("<p style = 'text-align: left; font-size:120%; color:#1DA1F2'></p>", unsafe_allow_html = True)
+    col3.write("<p style = 'text-align: left; font-size:110%; color:#1DA1F2'></p>", unsafe_allow_html = True)
