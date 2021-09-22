@@ -3,7 +3,7 @@ import numpy as np
 import streamlit as st
 
  
-st.sidebar.image("Team_Logo2.JPG" , width=300)
+st.sidebar.image("Team_Logo2.jpg" , width=300)
 
 menu = ["Home" , "About Us"]
 
