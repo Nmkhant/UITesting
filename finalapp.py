@@ -12,7 +12,7 @@ import re
 import pickle
 import projectfinal
 
-st.sidebar.image("Team_Logo1.JPG" , width=300)
+st.sidebar.image("Image/Team_Logo1.JPG" , width=300 , caption='Team TRIO')
 
 menu = ["Home" , "About Us"]
 
@@ -24,7 +24,7 @@ if choice == "Home": #Home
     
     st.text("")
     
-    st.image("Body_image3.jpg" , width = 700)
+    st.image("Image/Body.jpg , width = 700)
     
     st.text("")
     
@@ -40,16 +40,16 @@ if choice == "Home": #Home
    
 else: #About Us
     
-    st.markdown("<p style='text-align: left; color: #1DA1F2; font-size: 150%'><b>We are Team Trio. We made the app together by doing our part task. Here, we         want to tell about ourself.</b></p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: left; color: #1DA1F2; font-size: 150%'><b>Meet The Team</b></p>", unsafe_allow_html=True)
     
     st.text("")
     
     col1 , col2 , col3 = st.columns(3)
-    col1.image('https://th.bing.com/th/id/OIP.W-P6hA0MFd0MfJUWtC025gAAAA?pid=ImgDet&rs=1', width = 200)
+    col1.image('Image/hhm.png', width = 200)
     col1.write("<p style = 'text-align: left; font-size:110%; color:#1DA1F2'></p>", unsafe_allow_html = True)
     
-    col2.image('nmk.png', width = 200)
-    col2.write("<p style = 'text-align: left; font-size:110%; color:#1DA1F2'>I am Nyi Min Khant. I am a student from UTYCC. I made the User Interface of this               software.</p>", unsafe_allow_html = True)
+    col2.image('Image/nmk.png', width = 200)
+    col2.write("<p style = 'text-align: left; font-size:110%; color:#1DA1F2'>I am Nyi Min Khant. I am a student from UTYCC. I made the User Interface of this software.</p>", unsafe_allow_html = True)
     
-    col3.image('https://th.bing.com/th/id/OIP.W-P6hA0MFd0MfJUWtC025gAAAA?pid=ImgDet&rs=1', width = 200)  
+    col3.image('Image/tyn.png', width = 200)  
     col3.write("<p style = 'text-align: left; font-size:110%; color:#1DA1F2'></p>", unsafe_allow_html = True)
