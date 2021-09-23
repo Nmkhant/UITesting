@@ -40,7 +40,7 @@ if choice == "Home": #Home
    
 else: #About Us
     
-    st.markdown("<hl style='text-align: center; color: #1DA1F2; font-size: 200%'>Meet The Team</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color: #1DA1F2; font-size: 200%'>Meet The Team</h1>", unsafe_allow_html=True)
     
     st.text("")
     
