@@ -28,7 +28,7 @@ if choice == "Home": #Home
     
     st.text("")
     
-    user_review = st.text_input('Enter The Review You Want To Test')
+    user_review = st.text_input('Enter The Comment You Want To Test')
 
     if st.button("Analyze"):
         prediction = projectfinal.testing(user_review)
