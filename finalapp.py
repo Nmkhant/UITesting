@@ -24,7 +24,7 @@ if choice == "Home": #Home
     
     st.text("")
     
-    st.image("Image/Body.jpg , width = 700)
+    st.image("Image/Body.jpg" , width = 700)
     
     st.text("")
     
