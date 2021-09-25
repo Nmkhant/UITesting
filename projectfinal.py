@@ -26,7 +26,7 @@ lemmatizer=WordNetLemmatizer()
 stemming = PorterStemmer()
 stops = set(stopwords.words("english"))
 
-train_data = pd.read_csv("train.csv")
+train_data = pd.read_csv("addedset.csv")
 
 train_original = train_data.copy()
 
