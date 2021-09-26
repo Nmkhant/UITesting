@@ -10,4 +10,4 @@ We trained the Dataset with **Three Algorithms, Multinomial Naive Bayes, XGBClas
 
 **In this application, we created a UI that color blind people can use.**
 
-![Image of nmk]()
+![Image of hhm](Image/hhm.png)
